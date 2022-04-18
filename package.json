@@ -1,22 +1,19 @@
 {
-  "name": "readme-generator",
+  "name": "project",
   "version": "1.0.0",
-  "description": "Generates a README file",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
   },
-  "author": "Mwihaki Githii",
+  "scripts": {
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.5.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mwihakig/README-generator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mwihakig/README-generator/issues"
-  },
-  "homepage": "https://github.com/mwihakig/README-generator#readme"
+    "inquirer": "^7.0.3"
+  }
 }
